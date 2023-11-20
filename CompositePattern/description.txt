@@ -1,0 +1,26 @@
+__________________________________________________________________________________
+• Component (Graphic)
+– declara a interface para os objetos na composição;
+– implementa comportamento-padrão para a interface comum a todas as
+classes, conforme apropriado;
+– declara uma interface para acessar e gerenciar os seus componentes-filhos;
+– (opcional) define uma interface para acessar o pai de um componente na
+estrutura recursiva e a implementa, se isso for apropriado.                       
+__________________________________________________________________________________
+
+• Leaf (Rectangle, Line, Text, etc.)
+– representa objetos-folha na composição. Uma folha não tem filhos;
+– define comportamento para objetos primitivos na composição.
+__________________________________________________________________________________
+
+• Composite (Picture)
+– define comportamento para componentes que têm filhos;
+– armazena os componentes-filho;
+– implementa as operações relacionadas com os filhos presentes na interface
+de Component.
+__________________________________________________________________________________
+
+• Client
+– manipula objetos na composição através da interface de Component.
+
+__________________________________________________________________________________
